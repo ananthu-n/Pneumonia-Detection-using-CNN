@@ -23,30 +23,27 @@ This project uses Convolutional Neural Networks (CNNs) to classify chest X-ray i
 
 **Training Process**
 
-- Data Preprocessing
-  
-    - Image resizing and normalization
-    - Data augmentation to improve generalization
+**Data Preprocessing**  
+- Image resizing and normalization
+- Data augmentation to improve generalization
 
-- Model Training
+**Model Training**
 
-    - CNN model trained using categorical cross-entropy loss
-    - Adam optimizer with a learning rate of 0.001
-    - Early stopping to avoid overfitting
+- CNN model trained using categorical cross-entropy loss
+- Adam optimizer with a learning rate of 0.001
+- - Early stopping to avoid overfitting
+**Evaluation**
 
-- Evaluation
-
-    - Model tested on unseen data
-    - Metrics: Accuracy, Precision, Recall, F1-score
+- Model tested on unseen data
+- Metrics: Accuracy, Precision, Recall, F1-score
  
-Results & Performance Metrics
+**Results & Performance Metrics**
 - Training Accuracy: 95.64%
 - Validation Accuracy: 87.50%
 - Loss and accuracy plotted for better analysis
 - Confusion matrix used for evaluating misclassifications
 
-Installation & Usage Guide
-
+**Installation & Usage Guide**
 Prerequisites
 
 Ensure you have the following installed:
@@ -57,3 +54,45 @@ Ensure you have the following installed:
   - NumPy
   - OpenCV
   - Matplotlib
+
+
+## Installation & Usage Guide
+
+### Clone the Repository
+To get started, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/ananthu-n/Pneumonia-Detection-using-CNN.git
+cd Pneumonia-Detection-using-CNN
+```
+### Install Dependencies
+
+Ensure you have all required libraries installed by running:
+
+```bash
+pip install -r requirements.txt
+```
+### Run the Project
+Open the Jupyter Notebook or run the script in your preferred environment.
+```
+bash
+
+python Pneumonia_Detection.ipynb
+```
+## Folder Structure
+```
+Pneumonia-Detection/
+│── Pneumonia_Detection.ipynb   # Main Notebook
+│── README.md                   # Project Documentation
+│── requirements.txt             # Required Dependencies
+│── model/                       # Saved Model
+│── dataset/                     # X-ray Images (if uploaded)
+```
+#### References
+[Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
+Guangzhou Women and Children’s Medical Center
+
+#### License
+
+This project is for educational and research purposes only.
