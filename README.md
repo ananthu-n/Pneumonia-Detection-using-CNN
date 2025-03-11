@@ -81,12 +81,12 @@ python Pneumonia_Detection.ipynb
 ```
 ## Folder Structure
 ```
-Pneumonia-Detection/
-│── Pneumonia_Detection.ipynb   # Main Notebook
-│── README.md                   # Project Documentation
-│── requirements.txt             # Required Dependencies
-│── model/                       # Saved Model
-│── dataset/                     # X-ray Images (if uploaded)
+Pneumonia-Detection-using-CNN /
+│── Pneumonia_Detection.ipynb  
+│── README.md                   
+│── requirements.txt            
+│── model/                      
+│── dataset/                    
 ```
 #### References
 [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
